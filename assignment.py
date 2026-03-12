@@ -1,3 +1,4 @@
+import time
 #!python3
 # Volume Calculator
 # Feel free to rename your variables
@@ -10,6 +11,14 @@ def title():
     # Author: Copper
     # Modified:
     # title
+
+    print("Welcome to our new and improved calculator!")
+    time.sleep(1)
+    print("This calculator does many things such as:")
+    time.sleep(1)
+    print("1. Caculating GST")
+    time.sleep(0.5)
+    print("2. Calculate a missing side of a right triangle")
     return None
 
 def instructions():
